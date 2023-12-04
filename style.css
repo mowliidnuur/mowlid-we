@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;  
+    font-family: sans-serif;
+  }
+  .container{
+    width: 100%; 
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+  }
+  nav{
+    display: flex;  
+    justify-content: space-between;
+  padding: 5px;
+  font-size: 1rem;
+  }
+  nav ul li{
+      display: inline-block;
+      align-items: center;
+      margin: 8px;
+  }
+  nav ul li a{
+      text-decoration: none;
+      color: #000;
+  }
+  .container nav ul li a:hover{
+    border: px solid;
+    color: red;
+  }
+  .header-text{
+  padding: 10%;
+  }
+  .header-text h1{
+    font-size: 15px;
+  }
+  
+  .myimg{
+    width: 110px;
+    height: 200px;
+    border-radius: 10%;
+  }
+  .btn{
+   color: white;
+   box-shadow: 1rem;  
+   border-radius: 20px; 
+   background-color: #ff2c9c;
+   padding: 5px 15px;
+   margin:  25px;
+   border: 1px solid #ff2c9c;
+   font-size: 5px;
+   font-size: text 2px;
+  } 
+ .btn:hover{
+border: 3px solid;
+  color: blue;
+  }
+  
+  .about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-text{
+    font-size: 70%;
+    padding: 10;
+    
+  }
+  
+ .about button{
+    width: 30%;
+    display: inline-block;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    box-shadow: 1rem;  
+    border-radius: 20px; 
+    background-color: #ff2c9c;
+    padding: 5px 15px;
+    margin: 25px;
+    border: 1px solid #ff2c9c;
+    font-size: 5px;
+    font-size: text 2px;
+
+   } 
+  .btn:hover{
+ border: 3px solid;
+   color: blue;
+   }
+   .service{
+    background-color: cadetblue;
+    width: 100%;
+    padding: 70px 10px;
+   }
+   .service h2{
+    color: #000;
+    font-size: 20px;
+    width: 1120;
+    margin: 20px auto;
+    text-align: center;
+   }
+  .services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+  }
+  .services-box{
+    height: 50%;
+    width: 60%;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative; 
+    text-align: center;
+ }
+ .services-box{
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
+    color: #000;
+
+ }
+ .services-box{
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 25px;
+line-height: 15px;
+ }
+
+   
+ 
+   .cotect h2{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+  } 
+  
+  .cotect form{
+    max-width: 20rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .contec form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .contect form .input-box input,
+  .contect form textarea{
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    color:  #000;
+    background: whitesmoke;
+    border-radius: 5rem;
+    margin: 20px 0;
+  }
+  .contect form .input-box input{
+    width: 49%;
+  }
+  .contect form textarea{
+    resize: none;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .contect form textarea{
+    margin: 1rem;
+    cursor: pointer;
+  }
+
+  
+  
+  
